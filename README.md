@@ -2,15 +2,19 @@
 
 This repository houses _Klebsiella oxytoca_ Species Complex (KoSC) capsule (K) and O locus databases.
 
-The K locus database comprises 88 distinct K polysaccharide synthesis loci defined on the basis of distinct gene content, and identified from ~4,399 publicly available KoSC genome sequences. (Distinct genes were defined at a translated nucleotide identity threshold of 82.5%.)
+The databases comprise 88 distinct K polysaccharide synthesis loci and 9 distinct O polysaccharide synthesis loci, respectively. Distinct loci are defined on the basis of distinct gene content, and identified from ~4,399 publicly available KoSC genome sequences. (Distinct genes were defined at a translated nucleotide identity threshold of 82.5%.)
 
-The O locus database is comprised of 9 distinct O loci identified at the amino acid identity threshold of 82.5%, as well as orthologs of _Klebsiella pneumoniae_ 'extra genes', which are additional loci known to modify O antigen structures.
+The O locus database also contains 'extra genes' found outside the O locus, which likely play a role in O polysaccharide modification (putative orthologs of the 'extra genes' known for the _Klebsiella pneumoniae_ Species Complex).
 
-The databases are comptabile with [Kaptive](https://github.com/klebgenomics/Kaptive), enabling rapid typing of KoSC K and O loci from genome assemblies: Of 4,399 publicly available KoSC genomes tested, 97.7% had typeable K loci, whilst 99.7% had typeable O loci.
+The databases are comptabile with [Kaptive](https://github.com/klebgenomics/Kaptive), enabling rapid typing of KoSC K and O loci from genome assemblies.
 
 ## License
-The database is available for use, reuse and adaptation under [GNU General Public License v3](https://github.com/klebgenomics/KoSC-surface-antigen-loci/blob/main/LICENSE)).
+The databases are available for use, reuse and adaptation under [GNU General Public License v3](https://github.com/klebgenomics/KoSC-surface-antigen-loci/blob/main/LICENSE)).
 
 ## Citation
-If you use this database in your work, please cite:
+If you use the K locus database in your work, please cite:
 Ashcroft, M. / McGarry N. _et al._ Genomic characterisation of capsule polysaccharide loci in the _Klebsiella oxytoca_ Species Complex. _In prep._
+
+If you use the O locus database in your work please cite:
+McGarry N. _et al._ Genomic typing of O polysaccharides among the _Klebsiella oxytoca_ Species Complex reveals species-level conservation of _K. pneumoniae_ O antigen orthologs. _In prep._
+
