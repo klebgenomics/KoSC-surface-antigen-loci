@@ -1,8 +1,18 @@
 # _Klebsiella oxytoca_ Species Complex surface polysaccharide locus databases
 
-This repository houses _Klebsiella oxytoca_ Species Complex (KoSC) capsule (K) and O locus databases.
+The _K. oyxtoca_ Species Complex (KoSC) comprises 10 species:
+* _Klebsiella oxytoca_
+* _Klebsiella michiganensis_
+* _Klebsiella grimontii_
+* _Klebsiella pasteurii_
+* _Klebsiella huaxiensis_
+* _Klebsiella spallanzanii_
+* _Klebsiella indica_
+* plus three unnamed taxa
 
-The databases comprise 88 distinct K polysaccharide synthesis loci and 9 distinct O polysaccharide synthesis loci, respectively. Distinct loci are defined on the basis of distinct gene content, and identified from ~4,399 publicly available KoSC genome sequences. (Distinct genes were defined at a translated nucleotide identity threshold of 82.5%.)
+This repository houses KoSC capsule (K) and O locus databases, encoding the machinary to produce and assemble the polysaccharide capsule and outer-lipopolysaccharide, respectively.
+
+The databases comprise 88 distinct K loci and 9 distinct O loci, defined on the basis of distinct gene content, and identified from ~4,399 publicly available KoSC genome sequences. (Distinct genes were defined at a translated nucleotide identity threshold of 82.5%.)
 
 The O locus database also contains 'extra genes' found outside the O locus, which likely play a role in O polysaccharide modification (putative orthologs of the 'extra genes' known for the _Klebsiella pneumoniae_ Species Complex).
 
