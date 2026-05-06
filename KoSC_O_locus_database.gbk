@@ -3197,16 +3197,16 @@ ORIGIN
      3061 ccagggcgca agacgaggca ccagtctggt tcgccgggtg gcccggaaag tgaagtcaat
      3121 gttaaaataa
 //
-LOCUS       gmlABC                3264 bp    DNA     linear   BCT 19-FEB-2025
+LOCUS       gmlABC                2833 bp    DNA     linear   BCT 19-FEB-2025
 DEFINITION  Klebsiella pasteurii strain KP190356 chromosome, complete genome.
 ACCESSION   .
 VERSION     .
 KEYWORDS    .
 SOURCE      Klebsiella pasteurii CP181306
   ORGANISM  Klebsiella pasteurii
-REFERENCE   1  (bases 1 to 3264)
+REFERENCE   1  (bases 1 to 2833)
 FEATURES             Location/Qualifiers
-     source          1..3264
+     source          1..2833
                      /organism="Klebsiella pasteurii"
                      /mol_type="genomic DNA"
                      /strain="KP190356"
