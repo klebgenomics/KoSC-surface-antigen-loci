@@ -10,7 +10,7 @@ The _K. oyxtoca_ Species Complex (KoSC) comprises 10 species:
 * _Klebsiella indica_
 * plus three unnamed taxa
 
-This repository houses KoSC capsule (K) and O locus databases, encoding the machinary to produce and assemble the polysaccharide capsule and outer-lipopolysaccharide, respectively.
+This repository houses KoSC capsule (K) and O locus databases, encoding the machinery to produce and assemble the polysaccharide capsule and outer-lipopolysaccharide, respectively.
 
 The databases comprise 88 distinct K loci and 9 distinct O loci, defined on the basis of distinct gene content, and identified from ~4,399 publicly available KoSC genome sequences. (Distinct genes were defined at a translated nucleotide identity threshold of 82.5%.)
 
