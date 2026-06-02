@@ -3,7 +3,7 @@
 This repository houses databases for _in silico_ typing of _K. oxytoca_ Species Complex (KoSC) and _Klebsiella indica_ K and O surface polysaccharides using [Kaptive](https://github.com/klebgenomics/Kaptive). The capsule polysaccharide (K) and outer-lipopolysaccharide (O) are major surface antigens and phage binding receptors, making them key targets for novel vaccines, monoclonal antibody and phage therapies targeting KoSC.
 
 ## Contents
-- [What is the _K. oxyytoca_ Species Complex?](#what-is-the-k-oxytoca-species-complex)
+- [What is the _K. oxytoca_ Species Complex?](#what-is-the-k-oxytoca-species-complex)
 - [Database formats and versions](#database-formats-and-versions)
   - [How are loci defined?](#how-are-loci-defined)
   - [K locus database](#k-locus-database)
@@ -15,7 +15,7 @@ This repository houses databases for _in silico_ typing of _K. oxytoca_ Species 
 
 ## What is the _K. oxytoca_ Species Complex?
 
-The _K. ocytoca_ Species Complex (KoSC) comprises _K. oxytoca_ and closely related organisms that cannot be accurately distinguished by standard biochemical or mass-spectometry-based identification protocols: 
+The _K. oxytoca_ Species Complex (KoSC) comprises _K. oxytoca_ and closely related organisms that cannot be accurately distinguished by standard biochemical or mass-spectometry-based identification protocols: 
 * _Klebsiella oxytoca_
 * _Klebsiella michiganensis_
 * _Klebsiella grimontii_
