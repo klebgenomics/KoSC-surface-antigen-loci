@@ -75,10 +75,10 @@ The K locus database comprises 88 distinct loci:
 ### O locus database
 
 The O locus database comprises 9 distinct loci:
-- OL3, OL5 and OL9 are orthologous to _K. pneumoniae_ Species Complex OL3α/OL3β, OL5 and OL15, respectively, for which the correspdoning polysaccharide structures are [well udnerstood](https://doi.org/10.1128/mmbr.00090-23). We have therefore annotated the corresponding polysaccharide phenotypes within the KoSC O locus database.
+- OL3, OL5 and OL9 are orthologous to _K. pneumoniae_ Species Complex OL3α/OL3β, OL5 and OL15, respectively, for which the corresponding polysaccharide structures of OL3α/OL3β and OL5 are [well understood](https://doi.org/10.1128/mmbr.00090-23). We have therefore annotated the corresponding polysaccharide phenotypes within the KoSC O locus database.
 - OL2 is a much more distant ortholog of _K. pneumoniae_ Species Complex OL2α.3.
 - We also include orthologs of _K. pneumoniae_ Species Complex _wbbYZ_ as 'extra genes'. In the _K. pneumoniae_ Species Complex, these genes are found elsewhere in the genome and result in conversion of an O2 polysaccharide to an O1 polysaaccahride. However, polysaccharide structures remain to be elucidated for KoSC, and given the very distant orthology of the OL2 loci, we have not annotated any associated O phenotypes or phenotype logic in the database.
-- All other loci showed only partial orthology to those from the _K. pneumoniae_ Species Complex and no matched phneotypes were known at the time of discovery.
+- All other loci showed only partial orthology to those from the _K. pneumoniae_ Species Complex and no matched phenotypes were known at the time of discovery.
 
 ## Citations
 
