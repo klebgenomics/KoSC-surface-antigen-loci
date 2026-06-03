@@ -1,0 +1,15 @@
+name = "Klebsiella_oxytoca_Species_Complex_K"
+keyword = "kosc_k"
+genbank = "Klebsiella_oxytoca_Species_Complex_K_locus_database.gbk"
+organism = "Klebsiella oxytoca Species Complex"
+taxon = 571
+antigen = "Capsular polysaccharide"
+pathway = "Wzx/Wzy-dependent"
+prefix = "K"
+version = "0.0.0"
+id_threshold = 82.5
+doi = ["TBD"]
+owner = "klebgenomics"
+repo = "KoSC-surface-antigen-loci"
+branch = "main"
+contact = { "Kelly Wyres" = "kaptive.typing@gmail.com" }
