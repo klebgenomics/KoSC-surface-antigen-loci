@@ -4,6 +4,12 @@
 
 This repository houses databases for _in silico_ typing of _K. oxytoca_ Species Complex (KoSC) and _Klebsiella indica_ K and O surface polysaccharides using [Kaptive](https://github.com/klebgenomics/Kaptive). The capsule polysaccharide (K) and outer-lipopolysaccharide (O) are major surface antigens and phage binding receptors, making them key targets for novel vaccines, monoclonal antibody and phage therapies targeting KoSC.
 
+> [!WARNING]
+> These databases should not be used for species outside of the KoSC and _K. indica_! Using the databases to type other organisms, including other _Klebsiella_ species, may result in errors and low typing rates. 
+
+> [!TIP] 
+> K and O locus databases for the _Klebsiella pneumoniae_ Species Complex are available [here](https://github.com/klebgenomics/KpSC-surface-antigen-loci).
+
 ## Contents
 - [What is the _K. oxytoca_ Species Complex?](#what-is-the-k-oxytoca-species-complex)
 - [Database formats and versions](#database-formats-and-versions)
@@ -17,23 +23,19 @@ This repository houses databases for _in silico_ typing of _K. oxytoca_ Species 
 
 ## What is the _K. oxytoca_ Species Complex?
 
-The _K. oxytoca_ Species Complex (KoSC) comprises _K. oxytoca_ and closely related organisms that cannot be accurately distinguished by standard biochemical or mass-spectometry-based identification protocols: 
+The _K. oxytoca_ Species Complex (KoSC) comprises _K. oxytoca_ and closely related organisms that cannot be accurately distinguished by standard biochemical or mass-spectometry-based identification protocols (shown in red in the phylogeny below): 
 * _Klebsiella oxytoca_
 * _Klebsiella michiganensis_
 * _Klebsiella grimontii_
 * _Klebsiella pasteurii_
 * _Klebsiella huaxiensis_
 * _Klebsiella spallanzanii_
-* _Klebsiella indica_
-* plus three unnamed taxa
+* _"Klebsiella mammalorium"_ (formal description in progress)
+* plus two unnamed taxa 
 
+The KoSC Kaptive databases also include loci from the closely related _K. indica_ (see phylogeny below) since this organism would otherwise not be captured by any available K and O databases. 
 
-> [!WARNING]
-> These databases should not be used for species outside of the KoSC and _K. indica_! Using the databases to type other organisms, including other _Klebsiella_ species, may result in errors and low typing rates. 
-
-> [!TIP] 
-> K and O locus databases for the _Klebsiella pneumoniae_ Species Complex are available [here](https://github.com/klebgenomics/KpSC-surface-antigen-loci).
-
+![Unrooted phylogeneny showing the relationships between Klebsiella species and other selected Enterobacteriales, with KoSC and K.indica marked](/images/Enterobacteriales_tree_KoSC.png)
 
 ## Database formats and versions
 
