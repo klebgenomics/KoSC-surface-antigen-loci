@@ -85,7 +85,7 @@ The O locus database comprises 9 distinct loci:
 ## Citations
 
 If you use the K locus database in your work, please cite:
-Ashcroft, M. / McGarry N. _et al._ Genomic characterisation of capsule polysaccharide loci in the _Klebsiella oxytoca_ Species Complex. _In prep._
+Ashcroft, M. / McGarry N. _et al._ Genomic characterisation of capsule polysaccharide loci in the _Klebsiella oxytoca_ Species Complex. DOI: https://doi.org/10.64898/2026.07.16.739023
 
 If you use the O locus database in your work please cite:
 McGarry N. _et al._ Genomic typing of O polysaccharides among the _Klebsiella oxytoca_ Species Complex reveals species-level conservation of _K. pneumoniae_ O antigen orthologs. _In prep._
