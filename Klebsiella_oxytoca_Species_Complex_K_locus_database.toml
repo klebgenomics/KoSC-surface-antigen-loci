@@ -8,8 +8,11 @@ pathway = "Wzx/Wzy-dependent"
 prefix = "K"
 version = "1.0.0"
 id_threshold = 82.5
-doi = ["TBD"]
+doi = ["10.64898/2026.07.16.739023"]
 owner = "klebgenomics"
 repo = "KoSC-surface-antigen-loci"
 branch = "main"
 contact = { "Kelly Wyres" = "kaptive.typing@gmail.com" }
+
+[phenotype_logic]
+"Capsule null" = { loci = ["KL*"], inactive_genes = ["wza", "wzb", "wzc", "wzx", "wzy", "wcaJ*", "wbaP*"], priority = 100 }
