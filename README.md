@@ -30,7 +30,7 @@ The _K. oxytoca_ Species Complex (KoSC) comprises _K. oxytoca_ and closely relat
 * _Klebsiella pasteurii_
 * _Klebsiella huaxiensis_
 * _Klebsiella spallanzanii_
-* _"Klebsiella mammalorium"_ (formal description in progress)
+* _"Klebsiella mammaliorum"_ (formal description in progress)
 * plus two unnamed taxa 
 
 The KoSC Kaptive databases also include loci from the closely related _K. indica_ (see phylogeny below) since this organism would otherwise not be captured by any available K and O databases. 

@@ -3,8 +3,8 @@ keyword = "kosc_o"
 genbank = "Klebsiella_oxytoca_Species_Complex_O_locus_database.gbk"
 organism = "Klebsiella oxytoca Species Complex"
 taxon = 571
-antigen = "Outer core polysaccharide"
-pathway = "Wzm/Wzt-dependent"
+antigen = "Outer lipopolysaccharide"
+pathway = "ABC transport-dependent"
 prefix = "O"
 version = "1.0.0"
 id_threshold = 82.5
@@ -12,4 +12,4 @@ doi = ["TBD"]
 owner = "klebgenomics"
 repo = "KoSC-surface-antigen-loci"
 branch = "main"
-contact = { "Kelly Wyres" = "kaptive.typing@gmail.com" }
+contact = { "Wyres lab, wyreslab.com" = "kaptive.typing@gmail.com" }
