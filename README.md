@@ -15,7 +15,10 @@ This repository houses databases for _in silico_ typing of _K. oxytoca_ Species 
 - [Database formats and versions](#database-formats-and-versions)
   - [How are loci defined?](#how-are-loci-defined)
   - [K locus database](#k-locus-database)
-  - [O locus database](#o-locus-database)   
+  - [O locus database](#o-locus-database)
+- [How to use the databases](#how-to-use-the-databases)
+  - [Using command-line Kaptive](#using-command-line-kaptive)
+  - [Using Kaptive Web](#using-kaptive-web)    
 - [Citations](#citations)
 - [Curators](#curators)
 - [Contribute](#contribute)
@@ -81,6 +84,82 @@ The O locus database comprises 9 distinct loci:
 - OL2 is a much more distant ortholog of _K. pneumoniae_ Species Complex OL2α.3.
 - We also include orthologs of _K. pneumoniae_ Species Complex _wbbYZ_ as 'extra genes'. In the _K. pneumoniae_ Species Complex, these genes are found elsewhere in the genome and result in conversion of an O2 polysaccharide to an O1 polysaaccahride. However, polysaccharide structures remain to be elucidated for KoSC, and given the very distant orthology of the OL2 loci, we have not annotated any associated O phenotypes or phenotype logic in the database.
 - All other loci showed only partial orthology to those from the _K. pneumoniae_ Species Complex and no matched phenotypes were known at the time of discovery.
+
+## How to use the databases
+
+The databases are designed for typing whole genome assemblies using [Kaptive](https://github.com/klebgenomics/Kaptive/). You can install and run Kaptive via the command-line or upload your assemblies to [Kaptive Web](https://kaptive-web.erc.monash.edu/). Alternatively, you can upload your assemblies to the third-party platform, [Pathogenwatch](https://pathogen.watch/).
+
+### Using command-line Kaptive
+
+Make sure you have [Kaptive installed](https://klebgenomics.github.io/Kaptive/#1-install-kaptive) and accessible in your path. 
+
+#### 1. Install the relevant database(s)
+
+```bash
+kaptive db install kosc_k
+kaptive db install kosc_o
+```
+
+#### 2. Run Kaptive on your genome assemblies
+
+```bash
+kaptive type kosc_k *.fasta > results.tsv
+```
+
+This will run Kaptive on each assembly with the file suffix `.fasta`, using the KoSC K locus database, and print the results to a single file called `results.tsv`.
+
+#### 3. Understand your output
+
+Kaptive produces a tab-separated values (TSV) report, which you can easily open up in Excel, Numbers, or any text editor to browse through. 
+
+Here are the key columns in your `results.tsv` file:
+
+* **Assembly**: The name of your input genome file.
+* **Best match locus**: The best-matching locus found in the database (e.g., `KL1`).
+* **Best match type**: The predicted phenotype based on the best-matching locus and any special phenotype logic (e.g. taking into account any other genes elsewhere in the genome that are known to impact the phenotype, and/or gene truncations that can inhibit polysaccharide production).
+* **Confidence**: How confident Kaptive is in the call - this is either "Typeable" or "Untypeable"
+
+> [!TIP]
+> We strongly recommend treating "Untypeable" results as unknown loci unless you are able to perform your own follow-up investigations. "Untypeable" results can indicate a genuine novel locus OR a poor quality match that may be incorrect. It is not possible to distinguish these options without further interrogation of the Kaptive results and your genome assembly. You can learn more in our [Kaptive webinars](https://klebnet.org/training/). 
+
+For a deeper dive into Kaptive's usage options and interpreting the results, see the [Kaptive docs](https://klebgenomics.github.io/Kaptive).
+
+### Using Kaptive Web
+
+[Kaptive Web](https://kaptive-web.erc.monash.edu/) provides a point and click, graphical interface to run Kaptive. It is designed for those who are less confident with command-line applications.
+
+#### 1. Log into Kaptive Web
+
+For security reasons, Kaptive Web now requires a log in. You can use a [Github](https://github.com/signup) or an [ORCiD](https://orcid.org/register) account to log in. You can delete the record of your account in Kaptive Web at any time via the `Settings` menu at the top right of the page.
+
+#### 2. Select your organism of interest
+
+Use the dropdown menu to select your organism of interest and see the available databases e.g. _Klebsiella oxytcoa_ Species Complex
+
+#### 3. Upload your genome assemblies
+
+Browse and select genome assembly files to upload from your computer, or drag and drop your files into the panel on the right.
+
+Assemblies must be in FASTA format, one genome per file and no more than 1000 files at a time. 
+
+Optionally, add a memorable name for your analysis run so you can easily find it later. 
+
+#### 4. View your results 
+When ready, your results will appear in the `Serotyping Results` tab. Each genome will be shown in a single row with the following information:
+
+* **Run**: The name of the analysis run, either your designated name or an auto-generated alphanumeric identifier. 
+* **Genome**: The name of your input genome file.
+* **Locus**: The best-matching locus found in the database (e.g., `KL1`). 
+* **Phenotype**: The predicted phenotype based on the best-matching locus and any special phenotype logic (e.g. taking into account any other genes elsewhere in the genome that are known to impact the phenotype, and/or gene truncations that can inhibit polysaccharide production).
+* **Confidence**: How confident Kaptive is in the call - this is either "Typeable" or "Untypeable"
+* **View**: Selecting the `View` button will allow you to toggle between an interactive image of the locus found in your assembly, and the detailed Kaptive results text. 
+
+`Locus`, `Phenotype`, `Confidence` and `View` are grouped by database e.g. for KoSC you will see one set of columns for the K locus database and another set of columns for the O locus database. 
+
+> [!TIP]
+> We strongly recommend treating "Untypeable" results as unknown loci unless you are able to perform your own follow-up investigations. "Untypeable" results can indicate a genuine novel locus OR a poor quality match that may be incorrect. It is not possible to distinguish these options without further interrogation of the Kaptive results and your genome assembly. You can learn more in our [Kaptive webinars](https://klebnet.org/training/).
+
+For information on the detailed Kaptive results, see the [Kaptive docs](https://klebgenomics.github.io/Kaptive).
 
 ## Citations
 
