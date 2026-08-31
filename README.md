@@ -137,6 +137,8 @@ For security reasons, Kaptive Web now requires a log in. You can use a [Github](
 Use the dropdown menu to select your organism of interest and see the available databases e.g. _Klebsiella oxytcoa_ Species Complex.
 The database versions and citations will be shown.
 
+![Kaptive Web home page, with KoSC databases selected](/images/Kaptive_Web_KoSC_home.png)
+
 > [!TIP]
 > The current Kaptive Web and Kaptive versions are shown at the bottom of the page. 
 
@@ -161,6 +163,8 @@ When ready, your results will appear in the `Serotyping Results` tab. Each genom
 * **View**: Selecting the `View` button will allow you to toggle between an interactive image of the locus found in your assembly, and the detailed Kaptive results text. 
 
 `Locus`, `Phenotype`, `Confidence` and `View` are grouped by database e.g. for KoSC you will see one set of columns for the K locus database and another set of columns for the O locus database. 
+
+![Kaptive Web results page, with KoSC results shown](/images/Kaptive_Web_KoSC_results.png)
 
 > [!TIP]
 > We strongly recommend treating "Untypeable" results as unknown loci unless you are able to perform your own follow-up investigations. "Untypeable" results can indicate a genuine novel locus OR a poor quality match that may be incorrect. It is not possible to distinguish these options without further interrogation of the Kaptive results and your genome assembly. You can learn more in our [Kaptive webinars](https://klebnet.org/training/).
