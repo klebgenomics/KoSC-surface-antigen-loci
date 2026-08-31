@@ -148,6 +148,8 @@ Assemblies must be in FASTA format, one genome per file and no more than 1000 fi
 
 Optionally, add a memorable name for your analysis run so you can easily find it later. 
 
+Click `Serotype!` to start your analysis. 
+
 #### 4. View your results 
 When ready, your results will appear in the `Serotyping Results` tab. Each genome will be shown in a single row with the following information:
 
