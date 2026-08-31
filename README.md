@@ -134,7 +134,11 @@ For security reasons, Kaptive Web now requires a log in. You can use a [Github](
 
 #### 2. Select your organism of interest
 
-Use the dropdown menu to select your organism of interest and see the available databases e.g. _Klebsiella oxytcoa_ Species Complex
+Use the dropdown menu to select your organism of interest and see the available databases e.g. _Klebsiella oxytcoa_ Species Complex.
+The database versions and citations will be shown.
+
+> [!TIP]
+> The current Kaptive Web and Kaptive versions are shown at the bottom of the page. 
 
 #### 3. Upload your genome assemblies
 
