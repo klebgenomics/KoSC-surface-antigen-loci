@@ -183,5 +183,5 @@ If you think you've found a novel K or O locus please [get in touch](mailto:kapt
 
 ## License
 
-The databases are distributed under [GNU Genral Public license v3.0](https://github.com/klebgenomics/KoSC_surface_antigen_loci/blob/main/LICENSE). 
+The databases are distributed under [GNU Genral Public license v3.0](https://github.com/klebgenomics/KoSC-surface-antigen-loci/blob/main/LICENSE). 
 
