@@ -1,6 +1,6 @@
 # _Klebsiella oxytoca_ Species Complex surface polysaccharide locus databases
 
-[![Database CI/CD Pipeline](https://github.com/klebgenomics/KoSC-surface-antigen-loci/actions/workflows/release.yml/badge.svg)](https://github.com/klebgenomics/KoSC-surface-antigen-loci/actions/workflows/release.yml)
+[![Database CI/CD Pipeline](https://github.com/klebgenomics/KoSC-surface-antigen-loci/actions/workflows/release.yml/badge.svg)](https://github.com/klebgenomics/KoSC-surface-antigen-loci/actions/workflows/release.yml) [![DOI](https://zenodo.org/badge/679481637.svg)](https://doi.org/10.5281/zenodo.20199607)
 
 This repository houses databases for _in silico_ typing of _K. oxytoca_ Species Complex (KoSC) and _Klebsiella indica_ K and O surface polysaccharides using [Kaptive](https://github.com/klebgenomics/Kaptive). The capsule polysaccharide (K) and outer-lipopolysaccharide (O) are major surface antigens and phage binding receptors, making them key targets for novel vaccines, monoclonal antibody and phage therapies targeting KoSC.
 
