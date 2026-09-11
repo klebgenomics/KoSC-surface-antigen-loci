@@ -15,6 +15,8 @@ This repository houses databases for _in silico_ typing of _K. oxytoca_ Species 
 - [Database formats and versions](#database-formats-and-versions)
   - [How are loci defined?](#how-are-loci-defined)
   - [K locus database](#k-locus-database)
+    - [K loci](#k-loci)
+    - [Predicted K types](#predicted-k-types)   
   - [O locus database](#o-locus-database)
 - [How to use the databases](#how-to-use-the-databases)
   - [Using command-line Kaptive](#using-command-line-kaptive)
@@ -65,22 +67,42 @@ KoSC databases is 82.5%.**
 
 ### K locus database
 
+#### K loci
+
 The K locus database comprises 88 distinct loci:
 
-- KL1 corresponds to the K locus of strain K15g, for which the capsule polysaccharide structure was previously [described](), herein labeled K type K1. 
-- K loci KL26, KL29, KL41, KL66, KL70 and KL74 correspond to the originally defined _Klebsiella_ serotype reference strains, KL26, KL29, KL41, KL66, KL70 and KL74, respectively. These strains have been broadly assumed as _K. pneumoniae_ but are now known to be members of the KoSC. WE therefore annotated those loci with the corresponding matched phenotypes.
-- All other loci were defined from DNA sequence data on the basis of
-  gene content, numbered arbitrarily. KL6 and KL11 are close orthologs of _K. pneumoniae_ Species Complex KL43 and KL102, respectively for which the polysaccharide structures have been determined, and we therefore annotated these loci with the matched structres. At the time of discovery, no other matched phenotypes were known.
+- KL1 corresponds to the K locus of strain K15g, for which the capsule locus and polysaccharide structure was previously [described](https://doi.org/10.1134/s0006297925601935). 
+- K loci KL26, KL29, KL41, KL66, KL70 and KL74 correspond to the originally defined _Klebsiella_ serotype reference strains, KL26, KL29, KL41, KL66, KL70 and KL74, respectively. These strains have been broadly assumed as _K. pneumoniae_ but are now known to be members of the KoSC.
+- All other loci were defined from DNA sequence data on the basis of gene content, and numbered arbitrarily.
 
 > [!Note]
 > Insertion sequences (IS) are excluded from this database since we assume that the ancestral sequence was likely IS-free and IS transposase genes are not specific to the K locus.
 > Synthetic IS-free K locus sequences were generated for K loci for which no naturally occurring IS-free variants have been identified to date.
 
+#### Predicted K types
+
+K phenotypes are annotated in the database for those loci where corresponding serological types and/or polysaccharide structures have been defined, and for two loci predicted functionally equivalent to those in _K. pneumoniae_ for which serotypes and/or polysaccharide structures have been defined. These phenotype predictions are reported in the Kaptive output as the `Best match type`.
+
+| K locus | K type         | Polysaccharide structure                                                                                                         | Structure reference                                                                               |
+| ------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| KL26    | K26            | \->3)-β-D-Galp-(1->2)-[4,6-O-Pyr-β-D-Galp-(1->4)-β-D-Glcp-(1->6)-α-D-Glcp-(1->4)]-α-D-GlcpA-(1->3)-α-D-Manp-(1->2)-α-D-Manp-(1-> | [Di Fabio et al. Carbohydrate Research 1985](https://doi.org/10.1016/S0008-6215(00)90673-6)       |
+| KL29    | K29            | unknown                                                                                                                          | Not applicable                                                                                    |
+| KL41    | K41            | \->6)-α-D-Glcp-(1->3)-α-L-Rhap-(1->3)-α-D-Galp-(1->2)-[β-D-Glcp-(1->6)-α-D-Glcp-(1->4)-β-D-GlcpA-(1->3)]-β-D-Galf-(1->           | [Joseleau et al. Carbohydrate Research 1978](https://doi.org/10.1016/S0008-6215(00)83742-8)       |
+| KL66    | K66            | \->3)-α-D-Manp-(1->3)-α-D-Galp-(1->2)-[4-O-Lac-β-D-Glcp-(1->3)]-α-D-GlcpA-(1->3)-α-D-Manp-(1->                                   | [Jansson et al. Carbohydrate Research 1984](https://doi.org/10.1016/0008-6215(84)85226-X)         |
+| KL70    | K70            | \->4)-β-D-GlcpA-(1->4)-α-L-Rhap-(1->2)-α-L-Rhap-(1->2)-α-D-Glcp-(1->3)-β-D-Galp-(1->2)-α-L-Rhap-(1->                             | [Dutton et al. Carbohydrate Research 1978](https://doi.org/10.1016/S0008-6215(00)80879-4)         |
+| KL74    | K74            | \->3)-β-D-Galp-(1->2)-[4,6-O-Pyr-β-D-Galp-(1->4)-α-D-GlcpA-(1->3)]-α-D-Manp-(1->2)-α-D-Manp-(1->                                 | [Dutton et al. Carbohydrate Research 1980](https://doi.org/10.1016/S0008-6215(00)85196-4)         |
+| KL6     | K6 (=Kp K43)   | \->3)-α-D-Galp-(1->3)-[β-D-Manp-(1->4)-β-D-GlcpA-(1->2)]-α-D-Manp-(1->2)-α-D-Manp-(1->                                           | [Elsässer-Beile et al. Carbohydrate Research 1978](https://doi.org/10.1016/S0008-6215(00)84316-5) |
+| KL11    | K11 (=Kp K102) | \->4)-[α-D-Glcp-(1->4)-β-D-GlcA-(1->3)][β-D-Glcp-(1->6)]-α-D-Galp-(1->6)-β-D-Galp-(1->3)-β-D-Galp-(1->                           | [Ravenscroft et al. Carbohydrate Polymers 2025](https://doi.org/10.1016/j.carbpol.2025.124385)    |
+
+Kp = _K. pneumoniae_
+
+> [!TIP] 
+> Kaptive will report `Best match type` as `Capsule null` when it identifies a truncation in an essential capsule synthesis / assembly gene e.g. _wza_, _wzb_, _wzc_, _wzx_ and/or _wzy_, or an initiating glycosyltransferase gene, _wcaJ_ or _wbaP_.
 
 ### O locus database
 
 The O locus database comprises 9 distinct loci:
-- OL3, OL5 and OL9 are orthologous to _K. pneumoniae_ Species Complex OL3α/OL3β, OL5 and OL15, respectively, for which the corresponding polysaccharide structures of OL3α/OL3β and OL5 are [well understood](https://doi.org/10.1128/mmbr.00090-23). We have therefore annotated the corresponding polysaccharide phenotypes within the KoSC O locus database.
+- OL3, OL5 and OL9 are orthologous to _K. pneumoniae_ Species Complex OL3α/OL3β, OL5 and OL15, respectively, for which the corresponding polysaccharide structures of OL3α/OL3β and OL5 are [well understood](https://doi.org/10.1128/mmbr.00090-23). We have therefore annotated the corresponding predicted polysaccharide phenotypes within the KoSC O locus database.
 - OL2 is a much more distant ortholog of _K. pneumoniae_ Species Complex OL2α.3.
 - We also include orthologs of _K. pneumoniae_ Species Complex _wbbYZ_ as 'extra genes'. In the _K. pneumoniae_ Species Complex, these genes are found elsewhere in the genome and result in conversion of an O2 polysaccharide to an O1 polysaaccahride. However, polysaccharide structures remain to be elucidated for KoSC, and given the very distant orthology of the OL2 loci, we have not annotated any associated O phenotypes or phenotype logic in the database.
 - All other loci showed only partial orthology to those from the _K. pneumoniae_ Species Complex and no matched phenotypes were known at the time of discovery.
