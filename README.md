@@ -122,7 +122,7 @@ Here are the key columns in your `results.tsv` file:
 > [!TIP]
 > We strongly recommend treating "Untypeable" results as unknown loci unless you are able to perform your own follow-up investigations. "Untypeable" results can indicate a genuine novel locus OR a poor quality match that may be incorrect. It is not possible to distinguish these options without further interrogation of the Kaptive results and your genome assembly. You can learn more in our [Kaptive webinars](https://klebnet.org/training/). 
 
-For a deeper dive into Kaptive's usage options and interpreting the results, see the [Kaptive docs](https://klebgenomics.github.io/Kaptive).
+For a deeper dive into interpreting the results, see the [Kaptive docs](https://klebgenomics.github.io/Kaptive/serotyping/results.html).
 
 ### Using Kaptive Web
 
@@ -169,7 +169,7 @@ When ready, your results will appear in the `Serotyping Results` tab. Each genom
 > [!TIP]
 > We strongly recommend treating "Untypeable" results as unknown loci unless you are able to perform your own follow-up investigations. "Untypeable" results can indicate a genuine novel locus OR a poor quality match that may be incorrect. It is not possible to distinguish these options without further interrogation of the Kaptive results and your genome assembly. You can learn more in our [Kaptive webinars](https://klebnet.org/training/).
 
-For information on the detailed Kaptive results, see the [Kaptive docs](https://klebgenomics.github.io/Kaptive).
+For information on the detailed Kaptive results, see the [Kaptive docs](https://klebgenomics.github.io/Kaptive/serotyping/results.html).
 
 ## Citations
 
