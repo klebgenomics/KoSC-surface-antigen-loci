@@ -1,5 +1,9 @@
 # Changelog: Klebsiella_oxytoca_Species_Complex_K_locus_database
 
+## [v2.1.0] - 2026-09-14
+* minor: K db, add missing K type predictions for KL6 and KL11 (e6d75a0)
+* fix: update contact info, fix typo in docs (246d110)
+
 ## [v2.0.0] - 2026-07-29
 * major: update KoSC K locus database annotations and phenotype logic (8c28e9e)
 * chore: auto-bump and update changelogs [skip ci] (81f6447)
