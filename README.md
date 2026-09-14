@@ -100,6 +100,7 @@ K phenotypes are annotated in the database for those loci where corresponding se
 | KL74    | K74            | [Dutton et al. Carbohydrate Research 1980](https://doi.org/10.1016/S0008-6215(00)85196-4)         |
 | KL6     | K6 (=Kp K43)   | [Elsässer-Beile et al. Carbohydrate Research 1978](https://doi.org/10.1016/S0008-6215(00)84316-5) |
 | KL11    | K11 (=Kp K102) | [Ravenscroft et al. Carbohydrate Polymers 2025](https://doi.org/10.1016/j.carbpol.2025.124385)    |
+
 Kp = _K. pneumoniae_
 
 > [!TIP] 
