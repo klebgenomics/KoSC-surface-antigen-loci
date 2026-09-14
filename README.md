@@ -46,13 +46,13 @@ The KoSC Kaptive databases also include loci from the closely related _K. indica
 
 The K and O locus databases each comprise two files that are required to run Kaptive:
 1. A multi-genbank file containing each unique locus sequence and its gene annotations.
-2. A metadata file in TOML format, which provides essential information about the database (e.g. version, target organism(s), curator details), plus any special [phenotype logic](https://klebgenomics.github.io/Kaptive/Databases.html#phenotype-logic) that applies to the database.
+2. A metadata file in TOML format, which provides essential information about the database (e.g. version, target organism(s), curator details), plus any special [phenotype logic](https://klebgenomics.github.io/Kaptive/db/curation.html#phenotype-logic) that applies to the database.
 
-Please see the [Kaptive docs](https://klebgenomics.github.io/Kaptive/Databases.html#format) for more details on the database file formats.
+Please see the [Kaptive docs](https://klebgenomics.github.io/Kaptive/db/curation.html) for more details on the database file formats.
 
 ### How are loci defined?
 
-Loci are defined by the rules of the [Kaptive typing framework](https://klebgenomics.github.io/Kaptive/Databases.html#what-is-a-locus), which states that **a unique locus should represent a unique set of genes**, with the assumption that this encodes a unique
+Loci are defined by the rules of the [Kaptive typing framework](https://klebgenomics.github.io/Kaptive/db/overview.html#what-is-a-locus), which states that **a unique locus should represent a unique set of genes**, with the assumption that this encodes a unique
 polysaccharide structure. In many cases, these unique structures will
 result in unique immunological serotypes. 
 
@@ -69,11 +69,11 @@ KoSC databases is 82.5%.**
 
 #### K loci
 
-The K locus database comprises 88 distinct loci:
+As of v1.0 the K locus database comprises 88 distinct loci:
 
 - KL1 corresponds to the K locus of strain K15g, for which the capsule locus and polysaccharide structure was previously [described](https://doi.org/10.1134/s0006297925601935). 
-- K loci KL26, KL29, KL41, KL66, KL70 and KL74 correspond to the originally defined _Klebsiella_ serotype reference strains, KL26, KL29, KL41, KL66, KL70 and KL74, respectively. These strains have been broadly assumed as _K. pneumoniae_ but are now known to be members of the KoSC.
-- All other loci were defined from DNA sequence data on the basis of gene content, and numbered arbitrarily.
+- K loci KL26, KL29, KL41, KL66, KL70 and KL74 correspond to the originally defined _Klebsiella_ serotype reference strains, KL26, KL29, KL41, KL66, KL70 and KL74, respectively (sequences described [here](https://doi.org/10.1038/srep15573)). These strains have been broadly assumed as _K. pneumoniae_ but are now known to be members of the KoSC.
+- All other loci were defined from DNA sequence data on the basis of gene content, and numbered arbitrarily as described in [Aschcroft/McGarry et al. bioRxiv 2026](https://doi.org/10.64898/2026.07.16.739023)).
 
 > [!Note]
 > Insertion sequences (IS) are excluded from this database since we assume that the ancestral sequence was likely IS-free and IS transposase genes are not specific to the K locus.
@@ -81,19 +81,19 @@ The K locus database comprises 88 distinct loci:
 
 #### Predicted K types
 
-K phenotypes are annotated in the database for those loci where corresponding serological types and/or polysaccharide structures have been defined, and for two loci predicted functionally equivalent to those in _K. pneumoniae_ for which serotypes and/or polysaccharide structures have been defined. These phenotype predictions are reported in the Kaptive output as the `Best match type`.
+K phenotypes are annotated in the database for those loci where corresponding serological types and/or polysaccharide structures have been defined, and for two loci for which we predicted functional equivalence to those in _K. pneumoniae_ for which serotypes and/or polysaccharide structures have been defined. These phenotype predictions are reported in the Kaptive output as the `Best match type`.
 
-| K locus | K type         | Polysaccharide structure                                                                                                         | Structure reference                                                                               |
-| ------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| KL26    | K26            | \->3)-β-D-Galp-(1->2)-[4,6-O-Pyr-β-D-Galp-(1->4)-β-D-Glcp-(1->6)-α-D-Glcp-(1->4)]-α-D-GlcpA-(1->3)-α-D-Manp-(1->2)-α-D-Manp-(1-> | [Di Fabio et al. Carbohydrate Research 1985](https://doi.org/10.1016/S0008-6215(00)90673-6)       |
-| KL29    | K29            | unknown                                                                                                                          | Not applicable                                                                                    |
-| KL41    | K41            | \->6)-α-D-Glcp-(1->3)-α-L-Rhap-(1->3)-α-D-Galp-(1->2)-[β-D-Glcp-(1->6)-α-D-Glcp-(1->4)-β-D-GlcpA-(1->3)]-β-D-Galf-(1->           | [Joseleau et al. Carbohydrate Research 1978](https://doi.org/10.1016/S0008-6215(00)83742-8)       |
-| KL66    | K66            | \->3)-α-D-Manp-(1->3)-α-D-Galp-(1->2)-[4-O-Lac-β-D-Glcp-(1->3)]-α-D-GlcpA-(1->3)-α-D-Manp-(1->                                   | [Jansson et al. Carbohydrate Research 1984](https://doi.org/10.1016/0008-6215(84)85226-X)         |
-| KL70    | K70            | \->4)-β-D-GlcpA-(1->4)-α-L-Rhap-(1->2)-α-L-Rhap-(1->2)-α-D-Glcp-(1->3)-β-D-Galp-(1->2)-α-L-Rhap-(1->                             | [Dutton et al. Carbohydrate Research 1978](https://doi.org/10.1016/S0008-6215(00)80879-4)         |
-| KL74    | K74            | \->3)-β-D-Galp-(1->2)-[4,6-O-Pyr-β-D-Galp-(1->4)-α-D-GlcpA-(1->3)]-α-D-Manp-(1->2)-α-D-Manp-(1->                                 | [Dutton et al. Carbohydrate Research 1980](https://doi.org/10.1016/S0008-6215(00)85196-4)         |
-| KL6     | K6 (=Kp K43)   | \->3)-α-D-Galp-(1->3)-[β-D-Manp-(1->4)-β-D-GlcpA-(1->2)]-α-D-Manp-(1->2)-α-D-Manp-(1->                                           | [Elsässer-Beile et al. Carbohydrate Research 1978](https://doi.org/10.1016/S0008-6215(00)84316-5) |
-| KL11    | K11 (=Kp K102) | \->4)-[α-D-Glcp-(1->4)-β-D-GlcA-(1->3)][β-D-Glcp-(1->6)]-α-D-Galp-(1->6)-β-D-Galp-(1->3)-β-D-Galp-(1->                           | [Ravenscroft et al. Carbohydrate Polymers 2025](https://doi.org/10.1016/j.carbpol.2025.124385)    |
-
+| K locus | K type         | Structure reference                                                                               |
+| ------- | -------------- | ------------------------------------------------------------------------------------------------- |
+| KL1     | K1             | [Lukianova et al. Biochemistry Moscow 2026](https://doi.org/10.1134/S0006297925601935)            |
+| KL26    | K26            | [Di Fabio et al. Carbohydrate Research 1985](https://doi.org/10.1016/S0008-6215(00)90673-6)       |
+| KL29    | K29            | Not applicable, no structure defined to-date                                                              |
+| KL41    | K41            | [Joseleau et al. Carbohydrate Research 1978](https://doi.org/10.1016/S0008-6215(00)83742-8)       |
+| KL66    | K66            | [Jansson et al. Carbohydrate Research 1984](https://doi.org/10.1016/0008-6215(84)85226-X)         |
+| KL70    | K70            | [Dutton et al. Carbohydrate Research 1978](https://doi.org/10.1016/S0008-6215(00)80879-4)         |
+| KL74    | K74            | [Dutton et al. Carbohydrate Research 1980](https://doi.org/10.1016/S0008-6215(00)85196-4)         |
+| KL6     | K6 (=Kp K43)   | [Elsässer-Beile et al. Carbohydrate Research 1978](https://doi.org/10.1016/S0008-6215(00)84316-5) |
+| KL11    | K11 (=Kp K102) | [Ravenscroft et al. Carbohydrate Polymers 2025](https://doi.org/10.1016/j.carbpol.2025.124385)    |
 Kp = _K. pneumoniae_
 
 > [!TIP] 
@@ -101,10 +101,11 @@ Kp = _K. pneumoniae_
 
 ### O locus database
 
-The O locus database comprises 9 distinct loci:
+As of v1.0 the O locus database comprises 9 distinct loci:
+
 - OL3, OL5 and OL9 are orthologous to _K. pneumoniae_ Species Complex OL3α/OL3β, OL5 and OL15, respectively, for which the corresponding polysaccharide structures of OL3α/OL3β and OL5 are [well understood](https://doi.org/10.1128/mmbr.00090-23). We have therefore annotated the corresponding predicted polysaccharide phenotypes within the KoSC O locus database.
-- OL2 is a much more distant ortholog of _K. pneumoniae_ Species Complex OL2α.3.
-- We also include orthologs of _K. pneumoniae_ Species Complex _wbbYZ_ as 'extra genes'. In the _K. pneumoniae_ Species Complex, these genes are found elsewhere in the genome and result in conversion of an O2 polysaccharide to an O1 polysaaccahride. However, polysaccharide structures remain to be elucidated for KoSC, and given the very distant orthology of the OL2 loci, we have not annotated any associated O phenotypes or phenotype logic in the database.
+- OL2 is a much more distant ortholog of _K. pneumoniae_ Species Complex OL2α.3, and matches the locus [recently described](https://doi.org/10.1016/j.carbpol.2026.125475) for _K. pasteurii_ strain 0.067 expressing a polysaccharide structure matching _K. pneumoniae_ O1αβ,2αβ.
+- We also include orthologs of _K. pneumoniae_ Species Complex _wbbYZ_ as 'extra genes'. In the _K. pneumoniae_ Species Complex, these genes are found elsewhere in the genome and result in conversion of an O2 polysaccharide to an O1 polysaaccahride.
 - All other loci showed only partial orthology to those from the _K. pneumoniae_ Species Complex and no matched phenotypes were known at the time of discovery.
 
 ## How to use the databases
@@ -128,7 +129,7 @@ kaptive db install kosc_o
 kaptive type kosc_k *.fasta > results.tsv
 ```
 
-This will run Kaptive on each assembly with the file suffix `.fasta`, using the KoSC K locus database, and print the results to a single file called `results.tsv`.
+This will run Kaptive on each assembly with the file suffix `.fasta`, using the KoSC K locus database, and print the results to a single file called `results.tsv`. For full details of all command line options see the [Kaptive docs](https://klebgenomics.github.io/Kaptive/cli/serotyping.html).
 
 #### 3. Understand your output
 
