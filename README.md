@@ -50,6 +50,9 @@ The K and O locus databases each comprise two files that are required to run Kap
 
 Please see the [Kaptive docs](https://klebgenomics.github.io/Kaptive/db/curation.html) for more details on the database file formats.
 
+> [!TIP] 
+> We use Github tags to mark the database versions. See [here](https://github.com/klebgenomics/KoSC-surface-antigen-loci/tags) for a full list of database versions in this repository.
+
 ### How are loci defined?
 
 Loci are defined by the rules of the [Kaptive typing framework](https://klebgenomics.github.io/Kaptive/db/overview.html#what-is-a-locus), which states that **a unique locus should represent a unique set of genes**, with the assumption that this encodes a unique
@@ -79,6 +82,9 @@ As of v1.0 the K locus database comprises 88 distinct loci:
 > Insertion sequences (IS) are excluded from this database since we assume that the ancestral sequence was likely IS-free and IS transposase genes are not specific to the K locus.
 > Synthetic IS-free K locus sequences were generated for K loci for which no naturally occurring IS-free variants have been identified to date.
 
+> [!Tip]
+> You can see a full list of database versions in this repository [here](https://github.com/klebgenomics/KoSC-surface-antigen-loci/tags). The version displayed/downloaded by default is the most recent version (highest number).
+
 #### Predicted K types
 
 K phenotypes are annotated in the database for those loci where corresponding serological types and/or polysaccharide structures have been defined, and for two loci for which we predicted functional equivalence to those in _K. pneumoniae_ for which serotypes and/or polysaccharide structures have been defined. These phenotype predictions are reported in the Kaptive output as the `Best match type`.
@@ -107,6 +113,10 @@ As of v1.0 the O locus database comprises 9 distinct loci:
 - OL2 is a much more distant ortholog of _K. pneumoniae_ Species Complex OL2α.3, and matches the locus [recently described](https://doi.org/10.1016/j.carbpol.2026.125475) for _K. pasteurii_ strain 0.067 expressing a polysaccharide structure matching _K. pneumoniae_ O1αβ,2αβ.
 - We also include orthologs of _K. pneumoniae_ Species Complex _wbbYZ_ as 'extra genes'. In the _K. pneumoniae_ Species Complex, these genes are found elsewhere in the genome and result in conversion of an O2 polysaccharide to an O1 polysaaccahride.
 - All other loci showed only partial orthology to those from the _K. pneumoniae_ Species Complex and no matched phenotypes were known at the time of discovery.
+
+> [!Tip]
+> You can see a full list of database versions in this repository [here](https://github.com/klebgenomics/KoSC-surface-antigen-loci/tags). The version displayed/downloaded by default is the most recent version (highest number).
+
 
 ## How to use the databases
 
