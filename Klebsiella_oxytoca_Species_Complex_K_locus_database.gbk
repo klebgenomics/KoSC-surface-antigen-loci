@@ -3954,7 +3954,8 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /strain="GCA_020702035.1_PDT001164369.1_genomic"
                      /note="K locus:KL6"
-                     /note="K type: unknown"
+                     /note="K type:K6"
+                     /note="Predicted functional equivalence to KpSC KL43"
      CDS             1..897
                      /gene="galF"
                      /locus_tag="KL6_01_galF"
@@ -7758,7 +7759,8 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /strain="ERR3402853"
                      /note="K locus:KL11"
-                     /note="K type: unknown"
+                     /note="K type:K11"
+                     /note="Predicted functional equivalence to KpSC KL102"
      CDS             1..897
                      /gene="galF"
                      /locus_tag="KL11_01_galF"
@@ -21470,7 +21472,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /strain="ERR3904672"
                      /note="K locus:KL29"
-                     /note="K type: unknown"
+                     /note="K type:K29"
                      /note="matches KpSC: KL29"
      CDS             1..897
                      /gene="galF"
