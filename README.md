@@ -72,7 +72,7 @@ KoSC databases is 82.5%.**
 
 #### K loci
 
-As of v1.0 the K locus database comprises 88 distinct loci:
+As of v1.0 the [K locus database](https://github.com/klebgenomics/KoSC-surface-antigen-loci/blob/main/Klebsiella_oxytoca_Species_Complex_K_locus_database.gbk) comprises 88 distinct loci:
 
 - KL1 corresponds to the K locus of strain K15g, for which the capsule locus and polysaccharide structure was previously [described](https://doi.org/10.1134/s0006297925601935). 
 - K loci KL26, KL29, KL41, KL66, KL70 and KL74 correspond to the originally defined _Klebsiella_ serotype reference strains, KL26, KL29, KL41, KL66, KL70 and KL74, respectively (sequences described [here](https://doi.org/10.1038/srep15573)). These strains have been broadly assumed as _K. pneumoniae_ but are now known to be members of the KoSC.
@@ -108,7 +108,7 @@ Kp = _K. pneumoniae_
 
 ### O locus database
 
-As of v1.0 the O locus database comprises 9 distinct loci:
+As of v1.0 the [O locus database](https://github.com/klebgenomics/KoSC-surface-antigen-loci/blob/main/Klebsiella_oxytoca_Species_Complex_O_locus_database.gbk) comprises 9 distinct loci:
 
 - OL3, OL5 and OL9 are orthologous to _K. pneumoniae_ Species Complex OL3α/OL3β, OL5 and OL15, respectively, for which the corresponding polysaccharide structures of OL3α/OL3β and OL5 are [well understood](https://doi.org/10.1128/mmbr.00090-23). We have therefore annotated the corresponding predicted polysaccharide phenotypes within the KoSC O locus database.
 - OL2 is a much more distant ortholog of _K. pneumoniae_ Species Complex OL2α.3, and matches the locus [recently described](https://doi.org/10.1016/j.carbpol.2026.125475) for _K. pasteurii_ strain 0.067 expressing a polysaccharide structure matching _K. pneumoniae_ O1αβ,2αβ.
