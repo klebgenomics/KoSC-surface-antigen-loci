@@ -148,6 +148,9 @@ Kaptive produces a tab-separated values (TSV) report, which you can easily open 
 
 Here are the key columns in your `results.tsv` file:
 
+* **Kaptive version**: The version of the Kaptive code used to generate these results.
+* **Database name**: The name of the database used to generate these results.
+* **Database version**: The version of the database used to generate these results.
 * **Assembly**: The name of your input genome file.
 * **Best match locus**: The best-matching locus found in the database (e.g., `KL1`).
 * **Best match type**: The predicted phenotype based on the best-matching locus and any special phenotype logic (e.g. taking into account any other genes elsewhere in the genome that are known to impact the phenotype, and/or gene truncations that can inhibit polysaccharide production).
