@@ -123,6 +123,9 @@ As of v1.0 the [O locus database](https://github.com/klebgenomics/KoSC-surface-a
 
 The databases are designed for typing whole genome assemblies using [Kaptive](https://github.com/klebgenomics/Kaptive/). You can install and run Kaptive via the command-line or upload your assemblies to [Kaptive Web](https://kaptive-web.erc.monash.edu/). Alternatively, you can upload your assemblies to the third-party platform, [Pathogenwatch](https://pathogen.watch/).
 
+> [!Tip]
+> Test data are available [here](https://github.com/klebgenomics/KoSC-surface-antigen-loci/tree/main/test_data). These include six whole genome assemblies downloaded from the [NCBI RefSeq](https://www.ncbi.nlm.nih.gov/refseq/) database (labelled `*.fasta`), plus the corresponding output tables generated via command-line Kaptive (labelled `kosc_k_results.txt` and `kosc_o_results.txt`).
+
 ### Using command-line Kaptive
 
 Make sure you have [Kaptive installed](https://klebgenomics.github.io/Kaptive/#1-install-kaptive) and accessible in your path. 
