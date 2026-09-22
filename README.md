@@ -50,7 +50,7 @@ The K and O locus databases each comprise two files that are required to run Kap
 
 Please see the [Kaptive docs](https://klebgenomics.github.io/Kaptive/db/curation.html) for more details on the database file formats.
 
-> [!TIP] 
+> [!Note] 
 > We use Github tags to mark the database versions. See [here](https://github.com/klebgenomics/KoSC-surface-antigen-loci/tags) for a full list of database versions in this repository.
 
 ### How are loci defined?
@@ -75,7 +75,7 @@ KoSC databases is 82.5%.**
 As of v1.0 the [K locus database](https://github.com/klebgenomics/KoSC-surface-antigen-loci/blob/main/Klebsiella_oxytoca_Species_Complex_K_locus_database.gbk) comprises 88 distinct loci:
 
 - KL1 corresponds to the K locus of strain K15g, for which the capsule locus and polysaccharide structure was previously [described](https://doi.org/10.1134/s0006297925601935). 
-- K loci KL26, KL29, KL41, KL66, KL70 and KL74 correspond to the originally defined _Klebsiella_ serotype reference strains, KL26, KL29, KL41, KL66, KL70 and KL74, respectively (sequences described [here](https://doi.org/10.1038/srep15573)). These strains have been broadly assumed as _K. pneumoniae_ but are now known to be members of the KoSC.
+- K loci KL26, KL29, KL41, KL66, KL70 and KL74 correspond to the originally defined _Klebsiella_ serotype reference strains (sequences described [here](https://doi.org/10.1038/srep15573)). These strains have been broadly assumed as _K. pneumoniae_ but are now known to be members of the KoSC.
 - All other loci were defined from DNA sequence data on the basis of gene content, and numbered arbitrarily as described in [Aschcroft/McGarry et al. bioRxiv 2026](https://doi.org/10.64898/2026.07.16.739023)).
 
 > [!Note]
