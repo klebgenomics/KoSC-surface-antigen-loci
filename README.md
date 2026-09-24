@@ -213,11 +213,17 @@ For information on the detailed Kaptive results, see the [Kaptive docs](https://
 
 ## Citations
 
-If you use the K locus database in your work, please cite:
+If you use the **K locus database** please cite:
 Ashcroft, M. / McGarry N. _et al._ Genomic characterisation of capsule polysaccharide loci in the _Klebsiella oxytoca_ Species Complex. DOI: https://doi.org/10.64898/2026.07.16.739023
 
-If you use the O locus database in your work please cite:
+If you use the **O locus database** please cite:
 McGarry N. _et al._ Genomic typing of O polysaccharides among the _Klebsiella oxytoca_ Species Complex reveals species-level conservation of _K. pneumoniae_ O antigen orthologs. _In prep._
+
+If you use command-line **Kaptive** please cite:  
+Stanton _et al._ 2025. Fast and accurate _in silico_ antigen typing with Kaptive 3. Microbial Genomics:11(6):001428 DOI: [https://doi.org/10.1099/mgen.0.001428](https://doi.org/10.1099/mgen.0.001428).
+
+If you use **Kaptive Web** please cite:  
+Wick _et al._ 2018. Kaptive Web: User-friendly capsule and lipopolysaccharide serotype prediction for _Klebsiella_ genomes. Journal of Clinical Microbiology:56(6) DOI: [https://doi.org/10.1128/jcm.00197-18](https://doi.org/10.1128/jcm.00197-18).
 
 ## Curators
 
