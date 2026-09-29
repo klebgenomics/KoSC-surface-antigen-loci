@@ -1,5 +1,8 @@
 # Changelog: Klebsiella_oxytoca_Species_Complex_O_locus_database
 
+## [v1.2.0] - 2026-09-29
+* minor: fix O phenotype extra gene annotations (6047333)
+
 ## [v1.1.0] - 2026-09-29
 * minor: add KoSC O antigen phenotype logic (a98a21b)
 * minor: bump KoSC O database after phenotype label update (1ae2837)
