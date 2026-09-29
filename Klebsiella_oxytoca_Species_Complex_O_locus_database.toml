@@ -14,3 +14,17 @@ repo = "KoSC-surface-antigen-loci"
 branch = "main"
 contact = { "Wyres lab, wyreslab.com" = "kaptive.typing@gmail.com" }
 
+
+[phenotype_logic]
+"O2αβ" = { loci = ["OL2"], extra_genes = ["gmlA", "gmlB", "gmlC"] }
+"O2αγ" = { loci = ["OL2"], extra_genes = ["orf8"] }
+"O1α,2α" = { loci = ["OL2"], extra_genes = ["wbbY"] }
+"O1αβ,2α" = { loci = ["OL2"], extra_genes = ["wbbY", "wbbZ"] }
+"O1αβ,2γ" = { loci = ["OL2"], extra_genes = ["orf8", "wbbY", "wbbZ"] }
+"O1α,2αβ" = { loci = ["OL2"], extra_genes = ["gmlA", "gmlB", "gmlC", "wbbY"] }
+"O1αβ,2αβ" = { loci = ["OL2"], extra_genes = ["gmlA", "gmlB", "gmlC", "wbbY", "wbbZ"] }
+"O11α,2α" = { loci = ["OL2"], extra_genes = ["wbmV", "wbmW"] }
+"O11αβ,2α" = { loci = ["OL2"], extra_genes = ["wbmV", "wbmW", "wbmX"] }
+"O11αβ,2γ" = { loci = ["OL2"], extra_genes = ["orf8", "wbmV", "wbmW", "wbmX"] }
+"O11α,2αβ" = { loci = ["OL2"], extra_genes = ["gmlA", "gmlB", "gmlC", "wbmV", "wbmW"] }
+"O11αβ,2αβ" = { loci = ["OL2"], extra_genes = ["gmlA", "gmlB", "gmlC", "wbmV", "wbmW", "wbmX"] }
