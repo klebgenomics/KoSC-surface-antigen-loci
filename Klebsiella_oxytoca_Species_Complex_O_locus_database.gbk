@@ -12,7 +12,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /strain="strain"
                      /note="O locus: OL2"
-                     /note="O type: unknown"
+                     /note="O type: O2α"
      CDS             1..768
                      /gene="wzm"
                      /locus_tag="OL2_00001"
@@ -279,7 +279,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /strain="strain"
                      /note="O locus: OL3"
-                     /note="O type: O3αβ"
+                     /note="O type: O3αβ-like"
                      /note="same locus as KpSC OL3α/β"
      CDS             1..1416
                      /gene="manC"
@@ -922,7 +922,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /organism="Klebsiella oxytoca"
                      /note="O locus: OL5"
-                     /note="O type: O5"
+                     /note="O type: O5-like"
                      /note="same locus as KpSC OL5"
      CDS             1..1416
                      /codon_start=1
@@ -2123,7 +2123,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /strain="strain"
                      /note="O locus: OL9"
-                     /note="O type: unknown"
+                     /note="O type: O15-like"
                      /note="same locus as KpSC OL15"
      CDS             1..1416
                      /gene="manC"
