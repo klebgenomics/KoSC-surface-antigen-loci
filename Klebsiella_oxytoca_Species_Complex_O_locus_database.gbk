@@ -263,8 +263,7 @@ ORIGIN
      7861 ggttagcgat aaaaccacca ttatccacga gcttgaacag cgcaatacgc gtttagagga
      7921 cgagtatcaa actcaacaac agagattgct cagcatcgaa aatgcgtacc atgagctgac
      7981 ccagcgctat acagatttgg tttcctcttt atcgtggaaa atgacgaaac cattgaggct
-     8041 agttaaagaa ataactgcac gaaaaaagtc atga
-//
+     8041 agttaaagaa ataactgcac gaaaaaagtc atga//
 LOCUS       OL3                    11949 bp    DNA     linear       05-MAY-2025
 DEFINITION  Klebsiella oxytoca species complex O locus OL3.
 ACCESSION   
@@ -626,8 +625,7 @@ ORIGIN
     11761 gcgatgaacg aactgtggca cagtgatgaa acggcagcgc gctatggcgc aaattctcgt
     11821 cgccgctttg aggagatgtt taccgccgaa catatgattg atgcctacgt gaatctctac
     11881 agcacactgc tggagcagaa accctgatag gccgcaaatc gcccccgcca gcgcgggggc
-    11941 gcaaggcat
-//
+    11941 gcaaggcat//
 LOCUS       OL4                     8732 bp    DNA     linear       05-MAY-2025
 DEFINITION  Klebsiella oxytoca species complex O locus OL4.
 ACCESSION
@@ -901,8 +899,7 @@ ORIGIN
      8521 attaaaatat ttttaaacag atttttagaa aatctattga gttcaatatt ccaacatttt
      8581 ataccttttt gttctaagcc attttggatg gcactgtcag caaagttact cacgagatga
      8641 acttcataac ccttgcttat cgccgcttct gatctgtcta accaatgcaa ctcaaaatac
-     8701 catgctgcat tgacgaaata cactatcctc at
-//
+     8701 catgctgcat tgacgaaata cactatcctc at//
 LOCUS       OL5                    12124 bp    DNA     linear       05-MAY-2025
 DEFINITION  Klebsiella oxytoca species complex O locus OL5.
 ACCESSION
@@ -1278,8 +1275,7 @@ ORIGIN
     11941 tgaatgaact gtggcacagt gatgaaacgg cagcgcgcta tggcgcaaat tctcgtcgcc
     12001 gctttgagga gatgtttacc gccgaacata tgattgatgc ctacgtgaat ctctacagca
     12061 cgctgctgga gcagaaaccc tgataggccg caaatcgccc ccgccagcgc gggggcgcaa
-    12121 ggca
-//
+    12121 ggca//
 LOCUS       OL6                     9951 bp    DNA     linear       05-MAY-2025
 DEFINITION  Klebsiella oxytoca species complex O locus OL6.
 ACCESSION   
@@ -1575,8 +1571,7 @@ ORIGIN
      9721 ttttctgaaa gcagtgaata ttaaaatgtt cttaaacaga tttttggaaa atctattgag
      9781 ttcaatattc caacatttta tacccttttg ttctaagtta tttttgatag cagtgtcagt
      9841 aaagttacta acgagatgaa cttcatagcc cttgcttatt gctgcttctg accggtctaa
-     9901 ccaatgcaac tcaaaatacc atgccgcatt gacgaaatac actatcctca t
-//
+     9901 ccaatgcaac tcaaaatacc atgccgcatt gacgaaatac actatcctca t//
 LOCUS       OL7                     6565 bp    DNA     linear       05-MAY-2025
 DEFINITION  Klebsiella oxytoca species complex O locus OL7.
 ACCESSION   
@@ -1796,8 +1791,7 @@ ORIGIN
      6361 tattgggcgt atcgagataa aggaaatcat ccagacttaa ctcaaaaaga aaagtttgtt
      6421 aaaaaaatgt ctggaatatt tagctatgaa attaaagctg acaatgttaa tttgaaactt
      6481 ggtaaattta actttacctt aaatcgtaga ctaactatgt atttatatag ccgtgctctt
-     6541 tggctgacaa ataaattcaa ttgat
-//
+     6541 tggctgacaa ataaattcaa ttgat//
 LOCUS       OL8                     9517 bp    DNA     linear       05-MAY-2025
 DEFINITION  Klebsiella oxytoca species complex O locus OL8.
 ACCESSION
@@ -2107,8 +2101,7 @@ ORIGIN
      9301 ctccagcgtg tttttatttt taggctatat cagtttcccg ctctatctct tacatgagct
      9361 gatcattgtc tcgggattta tatttgatcc acaaaacggt tggacatcag tttctattgc
      9421 cgcagcagcg gctatcttta ttgcctatat ctacgcccgg tttattgact atccactgta
-     9481 ccgactacta aagcgcttta ttgcaaaagt gggttga
-//
+     9481 ccgactacta aagcgcttta ttgcaaaagt gggttga//
 LOCUS       OL9                    11835 bp    DNA     linear       05-MAY-2025
 DEFINITION  Klebsiella oxytoca species complex O locus OL9.
 ACCESSION   .
@@ -2468,8 +2461,7 @@ ORIGIN
     11641 gtcaatggtt gcgtgatccc gccggataac agcgcagcgt tggtcgaagc gatgaacgaa
     11701 ctgtggcaca gtgatgaaac ggcagcgcgc tatggcgcaa attctcgtcg ccgctttgag
     11761 gagatgttta ccgccgaaca tatgattgat gcctacgtga atctctacag cacactgctg
-    11821 gagcagaaac cctga
-//
+    11821 gagcagaaac cctga//
 LOCUS       OL10                   11907 bp    DNA     linear       05-MAY-2025
 DEFINITION  Klebsiella oxytoca species complex O locus OL10.
 ACCESSION
@@ -2839,8 +2831,7 @@ ORIGIN
     11701 aaccaggata aggttaatgg ttgcgtgatc ccaccggata atagcgcggc gttagtcgag
     11761 gcgatgaacg aactgtggaa cagtgatgaa acggctgcgc gctatggtgc aaattctcgt
     11821 cgccgctttg aggagatgtt tactgcagaa catatgattg atgcatatgt taatctctac
-    11881 agcaccttac tggagaagaa agcctga
-//
+    11881 agcaccttac tggagaagaa agcctga//
 LOCUS       ORF8                    1020 bp    DNA     linear       25-JUN-2025
 DEFINITION  Klebsiella pasteurii SAMEA6415020 orf8.
 ACCESSION   .
@@ -2916,8 +2907,7 @@ ORIGIN
       781 caactaataa agagagtttt cacttcaaat ttattcttat ttctcggtta tattagtttc
       841 cctttatatt tattgcatga gctggttatc gtatccggat tcatttttga cgctgagaat
       901 gcctgggtat cgatatcatt agcggcattt gcctcaatat tcattgccta tatttatgcc
-      961 cgatttatcg attatcctct ctatcgggca ttaaagcgtc agattgccaa aataagttaa
-//
+      961 cgatttatcg attatcctct ctatcgggca ttaaagcgtc agattgccaa aataagttaa//
 LOCUS       wbmVWX                  3913 bp    DNA     linear       25-JUN-2025
 DEFINITION  Klebsiella oxytoca species complex wbmVWX cluster.
 ACCESSION   .
@@ -2943,6 +2933,7 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef90_A0A2L0WT45"
                      /product="Capsular polysaccharide biosynthsis protein"
                      /locus_tag="wbmVWX _01"
+                     /gene="wbmV"
                      /protein_id="gnl|Bakta|wbmVWX_01"
                      /translation="MEWFSDIKNSKIDLSIIIPMYNVEDYIIETLNSMRGVRGFKVEL
                      ILVDDGSTDNTLNLAKEWANSSDFDTFILSKENGGPSIARNLGLSKARGELVTFFDSD
@@ -2969,6 +2960,7 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef90_A0A2X3E4Z0"
                      /product="Glycosyltransferase"
                      /locus_tag="wbmVWX_02"
+                     /gene="wbmW"
                      /protein_id="gnl|Bakta|wbmVWX_02"
                      /translation="MLRIESFEALMEEMKFSLVDESLARKDYDRLTNGYYGKSCNPLI
                      FCENLLIIGVRSGLEFLIAKSVNSNAVVHIVESNKSLLEKINKLNIANVTAFSSFKEY
@@ -3074,8 +3066,7 @@ ORIGIN
      3721 tatctagtat gttgaaaaaa tttaaagaat gattttcaac tgaaaagcca ctctttaaaa
      3781 taatgtcagg gctaaatcca ctgactgaaa cctttgcgtc tttgttcttg atatgctcag
      3841 ctatacagca attcaatatg aattcgtctc caaaattgcc gccaccaacc gcaccaacca
-     3901 aatttatctt cat
-//
+     3901 aatttatctt cat//
 LOCUS       wbbYZ                   3130 bp    DNA     linear       25-JUN-2025
 DEFINITION  Klebsiella michiganensis wbbYZ 
 ACCESSION
@@ -3103,6 +3094,7 @@ FEATURES             Location/Qualifiers
                      /product="Polysaccharide pyruvyl transferase
                      domain-containing protein"
                      /locus_tag="wbbYZ_01"
+                     /gene="wbbY"
                      /protein_id="gnl|Bakta|wbbYZ_01"
                      /translation="MTNMKLKFDLLLKSYHLSHRFVYKANPGNAGDGVIASATYDFFE
                      RNALTYIPYRDGECYSSETDILIFGGGGNLIEGLYSEGHDFIQNNIGKFHKVIIMPST
@@ -3122,6 +3114,7 @@ FEATURES             Location/Qualifiers
                      /db_xref="UniRef:UniRef90_A0AAJ1NUP7"
                      /product="Glycosyltransferase"
                      /locus_tag="wbbYZ_02"
+                     /gene="wbbZ"
                      /protein_id="gnl|Bakta|wbbYZ_02"
                      /translation="MKKILIMTPDIEGPVRNGGIGTAFTALATTLAKKGYDVDVLYTC
                      GDYSESSVSKFSDWSRIYSTFGINLLRTGLIKEINIDAPYFRRKSYSIYLWLKENNIY
@@ -3198,8 +3191,7 @@ ORIGIN
      2941 cggtcattct gtcagtaacg agttacaact tttaaataat aagattgatg gtcttatttc
      3001 tcagcagaga gatggttggg cccatgaccg ctttaatgct ctgtatgaag caattcatgt
      3061 ccagggcgca agacgaggca ccagtctggt tcgccgggtg gcccggaaag tgaagtcaat
-     3121 gttaaaataa
-//
+     3121 gttaaaataa//
 LOCUS       gmlABC                2833 bp    DNA     linear   BCT 19-FEB-2025
 DEFINITION  Klebsiella pasteurii strain KP190356 chromosome, complete genome.
 ACCESSION   .
@@ -3223,6 +3215,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="gmlC"
      CDS             complement(1..1458)
                      /locus_tag="gmlC"
+                     /gene="gmlC"
                      /inference="COORDINATES: similar to AA
                      sequence:RefSeq:WP_014229892.1"
                      /note="Derived by automated computational analysis using
@@ -3244,6 +3237,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="gmlC"
      CDS             complement(1455..2447)
                      /locus_tag="gmlB"
+                     /gene="gmlB"
                      /EC_number="2.4.-.-"
                      /inference="COORDINATES: similar to AA
                      sequence:RefSeq:WP_004852235.1"
@@ -3265,6 +3259,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="gmlB"
      CDS             complement(2444..2833)
                      /locus_tag="gmlA"
+                     /gene="gmlA"
                      /inference="COORDINATES: similar to AA
                      sequence:RefSeq:WP_004136578.1"
                      /note="Derived by automated computational analysis using
@@ -3329,5 +3324,4 @@ ORIGIN
      2701 aagggtagac acccgcaccg gcatgcataa ggccaaatat aacaactgcg gttattgctg
      2761 tatttgccag gccaacgata atgtacctga ccgcttctct ggatgtgttt tttttcaagg
      2821 tatgattaat cat
-
 //
