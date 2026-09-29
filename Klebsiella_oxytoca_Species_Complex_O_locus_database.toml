@@ -13,3 +13,4 @@ owner = "klebgenomics"
 repo = "KoSC-surface-antigen-loci"
 branch = "main"
 contact = { "Wyres lab, wyreslab.com" = "kaptive.typing@gmail.com" }
+
