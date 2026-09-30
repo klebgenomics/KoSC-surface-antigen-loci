@@ -111,8 +111,8 @@ Kp = _K. pneumoniae_
 As of v1.0 the [O locus database](https://github.com/klebgenomics/KoSC-surface-antigen-loci/blob/main/Klebsiella_oxytoca_Species_Complex_O_locus_database.gbk) comprises 9 distinct loci:
 
 - OL3, OL5 and OL9 are orthologous to _K. pneumoniae_ Species Complex OL3α/OL3β, OL5 and OL15, respectively, for which the corresponding polysaccharide structures of OL3α/OL3β and OL5 are [well understood](https://doi.org/10.1128/mmbr.00090-23). We have therefore annotated the corresponding predicted polysaccharide phenotypes within the KoSC O locus database.
-- OL2 is a much more distant ortholog of _K. pneumoniae_ Species Complex OL2α.3, and matches the locus [recently described](https://doi.org/10.1016/j.carbpol.2026.125475) for _K. pasteurii_ strain 0.067 expressing a polysaccharide structure matching _K. pneumoniae_ O1αβ,2αβ.
-- We also include orthologs of _K. pneumoniae_ Species Complex _wbbYZ_ as 'extra genes'. In the _K. pneumoniae_ Species Complex, these genes are found elsewhere in the genome and result in conversion of an O2 polysaccharide to an O1 polysaaccahride.
+- OL2 is a much more distant ortholog of _K. pneumoniae_ Species Complex OL2α.3, and matches the locus [recently described](https://doi.org/10.1016/j.carbpol.2026.125475) for _K. pasteurii_ strain 0.067 expressing a polysaccharide structure matching _K. pneumoniae_ O1αβ,2αβ. 
+- We also include orthologs of _K. pneumoniae_ Species Complex _wbbYZ_ as 'extra genes'. In the _K. pneumoniae_ Species Complex, these genes are found elsewhere in the genome and result in conversion of an O2 polysaccharide to an O1 polysaaccahride. We have annotated these resulting predicted polysaccharide phenotypes within the O locus database.
 - All other loci showed only partial orthology to those from the _K. pneumoniae_ Species Complex and no matched phenotypes were known at the time of discovery.
 
 > [!Tip]
