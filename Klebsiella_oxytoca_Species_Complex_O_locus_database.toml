@@ -23,9 +23,9 @@ contact = { "Wyres lab, wyreslab.com" = "kaptive.typing@gmail.com" }
 "O11α,2αβ" = { loci = ["OL2"], extra_genes = ["gmlA", "gmlB", "gmlC", "wbmV", "wbmW"] }
 
 "O1α,2αβ" = { loci = ["OL2"], extra_genes = ["gmlA", "gmlB", "gmlC", "wbbY"] }
-"O11αβ,2γ" = { loci = ["OL2"], extra_genes = ["orf8", "wbmV", "wbmW", "wbmX"] }
+"O11αβ,2αγ" = { loci = ["OL2"], extra_genes = ["orf8", "wbmV", "wbmW", "wbmX"] }
 
-"O1αβ,2γ" = { loci = ["OL2"], extra_genes = ["orf8", "wbbY", "wbbZ"] }
+"O1αβ,2αγ" = { loci = ["OL2"], extra_genes = ["orf8", "wbbY", "wbbZ"] }
 "O11αβ,2α" = { loci = ["OL2"], extra_genes = ["wbmV", "wbmW", "wbmX"] }
 
 "O1αβ,2α" = { loci = ["OL2"], extra_genes = ["wbbY", "wbbZ"] }

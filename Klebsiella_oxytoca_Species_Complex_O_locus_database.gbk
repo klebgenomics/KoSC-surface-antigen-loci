@@ -278,7 +278,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="genomic DNA"
                      /strain="strain"
                      /note="O locus: OL3"
-                     /note="O type: O3αβ-like"
+                     /note="O type: O3α/O3β-like"
                      /note="same locus as KpSC OL3α/β"
      CDS             1..1416
                      /gene="manC"
